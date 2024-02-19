@@ -1,0 +1,18 @@
+.container{
+
+}
+.item{
+	margin: 10px;
+	background: orange;
+	height: 100px;
+	padding: 10px;
+}
+.item: before{
+	content: "перед";
+	background: white;
+
+}
+.item: after{
+	content: "после";
+	background: white;
+}
