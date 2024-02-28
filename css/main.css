@@ -70,8 +70,13 @@ header a{
    color: black;
    text-decoration: none;
 }
-section.about{
+.about{
 padding-top: 350px;
+}
+
+.main_photo{
+   margin-left: auto;
+margin-right: auto;
 }
 .container{
 display: flex;
@@ -153,15 +158,14 @@ box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
     letter-spacing: 0.1em;
     background: url(../img/c.jpg);
    }
-   .collectiv{
-   background: url("C:\Users\zelte\Desktop\Осн.веб-програм\сайт о продаже\img\photo.jpg");
-}
-div.collectiv{
+
+.collectiv{
    background: #f8faf9;
    border: 5px solid  #5b7661;
    width:20%;
    height: 200px;
-   margin-right: 60px;
+   margin-right: auto;
+   margin-left: auto;
       padding: 20px;
    -webkit-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
