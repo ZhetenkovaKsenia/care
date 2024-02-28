@@ -1,41 +1,169 @@
-body {    
-     background: url(../img/уход.webp);
+body {   
+ background: url(../img/o.jpg); 
+ background-repeat: no-repeat;
+ padding: 0;
+ margin: 0;
+ font-family: 'Anton', sans-serif;
+ color: black;
+ font-size: 20px;
 }
-.shapka{
+ ul, li{
+   display: block;
+   padding: 0;
+   margin: 0;
+ }
+ .container{
+   margin: 0 auto;
+   display: flex;
+ }
+header a{
    color: black;
-  font-family: "Petit Formal Script", cursive;
-  font-weight: 300;
-  font-style: normal;
-  text-align: center;
-   border: 2px solid black;
 }
-.list1 li:nth-child(even){
-    color: rgb(49, 102, 62);
-    font-size: 30px;
+.menu{
+   display: flex;
 }
-.list1 li:nth-child(odd){
-    color:rgb(102, 49, 89);
-    font-size: 30px;
+.menu li a{
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 20px;
+   letter-spacing: 0.1em;
 }
-.div1{
-    background:rgb(229, 216, 226);
-   border: 5px solid rgb(153, 143, 151) ;
-   border-radius: 35px;
-   width: 30%;
-   height: 200px;
-   margin: 0px 0px 0px 0px;
-   padding: 50px;
+.menu li{
+   margin-left: 60px;
+}
+.tel {
+   text-decoration: none;
+   font-size: 20px;
+   margin-left:auto ;
+   letter-spacing: 0.1em;
+}
+.nav{
+   display: flex;
+   align-items: center;
+}
+.header{
+   padding-top: 57px;
+}
+.zagolovok{
+ text-transform: uppercase;
+ margin-top: 216px;
+}
+.zagolovok p{
+   font-size: 20px;
+   letter-spacing: 0.1em;
+
+}
+.zagolovok h1{
+   font-size: 80px;
+   margin-bottom: 19px;
+   margin-top: -9px;
+   letter-spacing: 0.02em;
+}
+.cnopka{
+   display: block;
+   font-size: 17px;
+   text-align: center;
+   letter-spacing: 0.1em;
+   padding: 17px 47px;
+   border: 1px solid black;
+   width: 238px;
+   color: black;
+   text-decoration: none;
+}
+section.about{
+padding-top: 350px;
+}
+.container{
+display: flex;
+justify-content: space-between;
+}
+.container p{
+   font-family:'Open Sans';
+   font-weight: 400px;
+   text-align: justify;
+   line-height: 1.67em;
 }
 h2{
-  font-family: "Protest Riot", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+   font-size: 50px;
+   margin-bottom: 58px;
+}
+.desc-left, .desc-right{
+   width: 567px;
+}
+.photo{
+   margin-top: 67px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: auto;
+    margin-right: auto
 }
 
+.ppp{
+   background: #f8faf9;
+   border: 5px solid  #5b7661;
+   width:15%;
+   height: 200px;
+   margin-right: 60px;
+      padding: 20px;
+   -webkit-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 }
-
-
-
-
-
-
+.ooo{
+   background: #f8faf9;
+   border: 5px solid  #5b7661;
+   width:15%;
+   height: 200px;
+   margin-right: 60px;
+   padding: 20px;
+   -webkit-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+}
+.ddd{
+   background: #f8faf9;
+   border: 5px solid  #5b7661;
+   width:15%;
+   height: 200px;
+   margin-right: 60px;
+      padding: 20px;
+   -webkit-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+}
+.ttt{
+   background: #f8faf9;
+   border: 5px solid  #5b7661;
+   width:15%;
+   height: 200px;
+  margin-right: 60px;
+   padding: 20px;
+   -webkit-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+}
+.footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 400px;
+   font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 200px;
+    letter-spacing: 0.1em;
+    background: url(../img/c.jpg);
+   }
+   .collectiv{
+   background: url("C:\Users\zelte\Desktop\Осн.веб-програм\сайт о продаже\img\photo.jpg");
+}
+div.collectiv{
+   background: #f8faf9;
+   border: 5px solid  #5b7661;
+   width:15%;
+   height: 200px;
+   margin-right: 60px;
+      padding: 20px;
+   -webkit-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
+}
