@@ -7,10 +7,16 @@ body {
  color: black;
  font-size: 20px;
 }
+.menu a:hover,
+header#w1:hover~menu a[href="#w1"],
+header#w2:hover~menu a[href="#w2"],
+header#w3:hover~menu a[href="#w3"],
+}
+
  ul, li{
-   display: block;
+   display: flex;
    padding: 0;
-   margin: 0;
+   margin: 10px;
  }
  .container{
    margin: 0 auto;
@@ -21,21 +27,23 @@ header a{
 }
 .menu{
    display: flex;
+   flex-direction: row;
 }
 .menu li a{
    text-transform: uppercase;
    text-decoration: none;
    font-size: 20px;
    letter-spacing: 0.1em;
+   justify-content: space-between;
 }
 .menu li{
    margin-left: 60px;
 }
 .tel {
    text-decoration: none;
-   font-size: 20px;
-   margin-left:auto ;
-   letter-spacing: 0.1em;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 60px;
 }
 .nav{
    display: flex;
@@ -44,23 +52,27 @@ header a{
 .header{
    padding-top: 57px;
 }
-.zagolovok{
+.zagolovok {
+display: flex;
+flex-direction: column;
  text-transform: uppercase;
- margin-top: 216px;
+ margin-top: 200px;
 }
 .zagolovok p{
    font-size: 20px;
    letter-spacing: 0.1em;
+   margin-left: 60px;
 
 }
-.zagolovok h1{
-   font-size: 80px;
+.zagolovok h2{
+   font-size: 50px;
    margin-bottom: 19px;
    margin-top: -9px;
    letter-spacing: 0.02em;
+   margin-left: 60px;
 }
 .cnopka{
-   display: block;
+   display: flex;
    font-size: 17px;
    text-align: center;
    letter-spacing: 0.1em;
@@ -69,13 +81,17 @@ header a{
    width: 238px;
    color: black;
    text-decoration: none;
+   margin-left: 60px;
+   flex-direction: column;
 }
 .about{
 padding-top: 350px;
+margin-right:auto;
+margin-left:60px;
 }
 
 .main_photo{
-   margin-left: auto;
+margin-left: auto;
 margin-right: auto;
 }
 .container{
@@ -91,6 +107,8 @@ justify-content: space-between;
 h2{
    font-size: 50px;
    margin-bottom: 58px;
+   margin-left: 60px;
+   line-height: 60px;
 }
 .desc-left, .desc-right{
    width: 567px;
@@ -103,18 +121,24 @@ h2{
     margin-right: auto
 }
 
-.ppp{
+.t1{
+   text-align: center;
+   vertical-align: middle;
+   line-height: 100px;  
    background: #f8faf9;
    border: 5px solid  #5b7661;
    width:15%;
    height: 200px;
-   margin-right: 60px;
+   margin-right: 20px;
       padding: 20px;
    -webkit-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 }
-.ooo{
+.t2{
+   text-align: center;
+   vertical-align: middle;
+line-height: 190px;   
    background: #f8faf9;
    border: 5px solid  #5b7661;
    width:15%;
@@ -125,7 +149,11 @@ box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 }
-.ddd{
+.t3{
+   text-align: center;
+   vertical-align: middle;
+line-height: 100px;  
+   text-align: center;
    background: #f8faf9;
    border: 5px solid  #5b7661;
    width:15%;
@@ -136,7 +164,10 @@ box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 }
-.ttt{
+.t4{
+   text-align: center;
+   vertical-align: middle;
+   line-height: 100px;  
    background: #f8faf9;
    border: 5px solid  #5b7661;
    width:15%;
@@ -149,17 +180,17 @@ box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 }
 .footer {
    display: flex;
-   justify-content: center;
-   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: row;
    min-height: 400px;
    font-size: 20px;
     text-transform: uppercase;
-    margin-left: 200px;
+    margin-left: 100px;
     letter-spacing: 0.1em;
     background: url(../img/c.jpg);
    }
 
-.collectiv{
+.collectiv {
    background: #f8faf9;
    border: 5px solid  #5b7661;
    width:20%;
