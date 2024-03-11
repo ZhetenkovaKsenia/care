@@ -7,12 +7,6 @@ body {
  color: black;
  font-size: 20px;
 }
-.menu a:hover,
-header#w1:hover~menu a[href="#w1"],
-header#w2:hover~menu a[href="#w2"],
-header#w3:hover~menu a[href="#w3"],
-}
-
  ul, li{
    display: flex;
    padding: 0;
@@ -108,10 +102,12 @@ h2{
    font-size: 50px;
    margin-bottom: 58px;
    margin-left: 60px;
-   line-height: 60px;
+   line-height: 70px;
 }
 .desc-left, .desc-right{
    width: 567px;
+   margin-right: 60px;
+   margin-left: 60px;
 }
 .photo{
    margin-top: 67px;
@@ -152,7 +148,7 @@ box-shadow: 10px 25px 25px 13px rgba(0,0,0,0.75);
 .t3{
    text-align: center;
    vertical-align: middle;
-line-height: 100px;  
+   line-height: 100px;  
    text-align: center;
    background: #f8faf9;
    border: 5px solid  #5b7661;
